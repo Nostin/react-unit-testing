@@ -15,12 +15,12 @@ Ask the user for their birthday. Provide a date input and button to enter.
 
 Display messages as follows depending on what is entered:
 
-- "Invalid Date" if the date entered is not a valid date
-- "Birthday cannot be in the future" if a future date is entered
-- "You were literally born today?" if user enters todays date
-- "Happy birthday!" if it is the users birthday today
-- "You are {age} years old" if a past date date is entered that does not coincide with todays date
-- "You are 1 year old" if the date entered was exactly one year ago
+- `Invalid Date` if the date entered is not a valid date
+- `Birthday cannot be in the future` if a future date is entered
+- `You were literally born today?` if user enters todays date
+- `Happy birthday!` if it is the users birthday today
+- `You are {age} years old` if a past date date is entered that does not coincide with todays date
+- `You are 1 year old` if the date entered was exactly one year ago
 
 A solution that meets the above requirements has been provided for you, including a unit test suite that ensures that it works as intended.  
 
@@ -32,8 +32,8 @@ One challenge to think about when testing a solution to a problem like this is h
 
 What if we were to extend the requirements? Display additional messages to the user in the following situations:
 
-- "You are a child" if the date entered is less than 18 years from today's date
-- "You are very old" if the date entered is more than 100 years from today's date
+- `You are a child` if the date entered is less than 18 years from today's date
+- `You are very old` if the date entered is more than 100 years from today's date
 
 Say you have inherited this code base from me and have been asked to implement the above enhancements.  
 
