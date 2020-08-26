@@ -8,6 +8,8 @@ Stack:
 
 This repo is intended for demonstration purposes.  We create a simple date selecting utility asking for a user's birthday and then present the user with a message depending on the date they picked.
 
+The unit-testing is handled by [Jest](https://jestjs.io/) and [React Testing Library](https://testing-library.com/docs/react-testing-library/intro) which is bundled with Create-React-App.
+
 ## Task Requirements:
 Ask the user for their birthday. Provide a date input and button to enter.
 
