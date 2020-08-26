@@ -2,6 +2,7 @@
   "name": "unit-testing-example",
   "productName": "Super Basic Unit Tests",
   "author": "Sean Thompson",
+  "licence": "MIT",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
